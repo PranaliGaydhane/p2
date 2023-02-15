@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+    <title>Mini Project</title>
+     <style>
+        h1{
+            color:black;
+           background-image: linear-gradient(pink,grey);
+           position:relative;
+        }
+        body{
+            background-color: wheat;
+            /* background-image: url("https://images.pexels.com/photos/580151/pexels-photo-580151.jpeg?auto=compress&cs=tinysrgb&w=600");
+            width: 100%; */
+            /* opacity: 0.5; */
+           background-size: cover;
+           background-position: fixed;
+        }
+        .a{
+            padding-bottom: 50px;
+        }
+        header{
+            top: 0px;
+            left: 0px;
+            color: black;
+            background-image: linear-gradient(red,yellow);
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            font-size: 39px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        footer{
+            bottom: 0px;
+            left: 0px;
+            color: black;
+            background-image: linear-gradient(red,yellow);
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            font-size: 39px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        /* #mybox {
+           height: 120px;
+           width: 120px;
+           border: 2px solid red;
+           background-color: grey;
+           padding: 20px;
+           margin: 20px;
+           color: white;
+           text-align: center;
+           animation-name: myanimation;
+           animation-duration: 3s;
+           animation-iteration-count: 5;
+           position: relative;
+           font-family: 'Courier New', Courier, monospace;
+        }
+        @keyframes myanimation{
+          0%{background-color:  red;       left: 0px;   top: 0px;}
+          10%{background-color: pink;      left: 200px; top: 0px;}
+          30%{background-color: slateblue; left: 200px; top:200px;}
+          50%{background-color: chartreuse;left:0px;    top: 200px;}
+          70%{background-color: seagreen;  left:0px;    top:0px;}
+          }
+          h3{
+            background-image: linear-gradient(yellow,black);
+          } */
+
+        .p{grid-area:p1;}  
+        .q{grid-area:q1;}  
+        .r{grid-area:r1;}  
+        .s{grid-area:s1;}  
+        .t{grid-area:t1;}  
+        .u{grid-area:u1;}  
+        .v{grid-area:v1;}  
+        .w{grid-area:w1;}  
+        
+        .mainclass{
+            display: grid;
+            grid-template-areas:
+            "p1 p1 q1 q1 r1 r1 s1 s1"
+            "t1 t1 u1 u1 v1 v1 w1 w1";
+            grid-gap: 40px;
+            margin: 50px;
+            padding: 0.5px;
+        }
+        p{
+            font-size: 21px;
+        }
+        button{
+            color: white;
+            background-color: blue;
+            text-align: left;
+            position: relative;
+            left: 20px;
+        }
+        audio{
+            background-color: black;
+            
+        }
+     </style>
+</head>
+<body>
+
+    <div class="mainclass">
+     <div class="p"><img src="https://th.bing.com/th/id/OIP.21ikmd9l-I1e_91aN6G1IQAAAA?pid=ImgDet&w=201&h=263&c=7&dpr=1.3"
+     width="400px" height="500px" border=5><h1>Mother Teresa</h1><p>Mary Teresa Bojaxhiu, MC , better known as Mother Teresa was an Indian-Albanian Catholic nun who, in 1950, founded the Missionaries of Charity....</p>
+     <a href="https://en.wikipedia.org/wiki/Mother_Teresa" target="_blank"><button>Click for more Info</button></a>
+    </div>
+     <div class="q"><img src="https://top15.in/wp-content/uploads/Untitled-design-43-1-3.jpg"
+     width="400px" height="500px" border=5><h1>Lal Bahadur Shastri</h1><p>Lal Bahadur Shastri was an Indian politician and statesman who served as the 2nd Prime Minister of India from 1964 to 1966 and 6th Home Minister of India from 1961 to 1963.....</p>
+     <a href="https://en.wikipedia.org/wiki/Lal_Bahadur_Shastri     " target="_blank"><button>Click for more Info</button></a>
+    </div>
+     <div class="r"><img src="https://qph.fs.quoracdn.net/main-qimg-7218002065b869fcf1245ef6b0096c41-c"
+     width="400px" height="500px" border=5><h1>Jawaharlal Nehru</h1><p>Jawaharlal Nehru was an Indian anti-colonial nationalist, secular humanist, social democrat, statesman and author who was a central figure in India during the middle of the 20th century....</p>
+     <a href="https://en.wikipedia.org/wiki/Jawaharlal_Nehru     " target="_blank"><button>Click for more Info</button></a>
+    </div>
+     <div class="s"><img src="https://th.bing.com/th/id/OIP.vq88m46l2lWhEZ7V1crRLQHaGL?w=202&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+      width="400px" height="500px" border=5><h1>Mahatma Gandhi</h1><p>Mohandas Karamchand Gandhi , popularly known as Mahatma Gandhi, was an Indian revolutionary, anti-colonial nationalist, and political ethicist....</p>
+      <a href="https://simple.wikipedia.org/wiki/Mahatma_Gandhi      " target="_blank"><button>Click for more Info</button></a>
+    </div>
+     <div class="t"><img src="https://th.bing.com/th?q=Dr+Zakir+Hussain&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.3&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247"
+     width="400px" height="500px" border=5><h1>Zakir Hussain</h1><p>Zakir Husain Khan (8 February 1897 – 3 May 1969) known as Dr. Zakir Husain, was an Indian educationist and politician who served as President of India from 13 May 1967 until his death on 3 May 1969......</p>
+     <a href="https://www.britannica.com/biography/Zakir-Husain" target="_blank"><button>Click for more Info</button></a>
+    </div>
+     <div class="u"><img src="https://th.bing.com/th?q=Morarji+Desai&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.3&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247"
+     width="400px" height="500px" border=5><h1>Morarji Desai</h1><p>Morarji Ranchhodji Desai (29 February 1896 – 10 April 1995) was an Indian independence activist and politician who served as the 4th Prime Minister of India between 1977 to 1979.....</p>
+     <a href="https://en.wikipedia.org/wiki/Morarji_Desai" target="_blank"><button>Click for more Info</button></a>
+    </div>
+     <div class="v"><img src="https://th.bing.com/th/id/OIP.F3cA3RWNfnhnVLe4WsuulwAAAA?pid=ImgDet&w=201&h=261&c=7&dpr=1.3"
+     width="400px" height="500px" border=5><h1>Dr. Ambedkar</h1><p>Bhimrao Ramji Ambedkar (14 April 1891 – 6 December 1956) was an Indian jurist, economist, social reformer and political leader who headed the committee drafting the Constitution of India....</p>
+     <a href="https://en.wikipedia.org/wiki/B._R._Ambedkar     " target="_blank"><button>Click for more Info</button></a>
+    </div>
+     <div class="w"><img src="https://th.bing.com/th/id/OIP.7PFwNbGsOMzfQeCK1P8i9QHaEP?pid=ImgDet&w=201&h=115&c=7&dpr=1.3"
+     width="400px" height="500px" border=5><h1>Dr. APJ Abdul Kalam</h1><p> Indian scientist and politician who played a leading role in the development of India’s missile and nuclear weapons programs He was president of India from 2002 to 2007 Kalam earned a degree in aeronautical engineering.....</p>
+      <a href="https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam      " target="_blank"><button>Click for more Info</button></a>
+    </div>
+    </div>
+
+    <div class="a" align="center" ><h2>National Anthem</h2>
+        <audio src="song1.mp3" controls ></audio>
+    </div>
+    <div align="center" id="mybox">
+     <h3>Thank you</h3>
+    </div>
+    <header>Leaders of India</header>
+    <footer>Thank you Designed by..Pranali Gaydhane</footer>
+</body>
+</html>
